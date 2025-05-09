@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+}
+.site__container {
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.site__content {
+  display: flex;
+  margin-left: 5rem;
+  gap: 2rem;
+  line-height: 1.5rem;
+}
+.main__img {
+  width: 30rem;
+  height: 45rem;
+  margin-top: 3.2rem;
+}
+.site__img {
+  width: 30rem;
+  height: 45rem;
+}
+.site__data {
+  padding-left: 5rem;
+}
+.site__name {
+  width: 9.2rem;
+  height: 1.5rem;
+  font-size: 1.2rem;
+  line-height: 100%;
+  color: #6c7289;
+  margin-top: 3.2rem;
+}
+.product__name {
+  width: 23.6rem;
+  height: 9.6rem;
+  font-size: 3.2rem;
+  line-height: 3.2rem;
+  color: #1c232b;
+  padding-top: 3.2rem;
+}
+.product__description {
+  width: 23.7rem;
+  height: 9.2rem;
+  font-size: 1.4rem;
+  line-height: 2.3rem;
+  color: #6c7289;
+  padding-top: 5rem;
+}
+.price {
+  display: flex;
+}
+.product__price {
+  width: 12.7rem;
+  height: 3.2rem;
+  font-size: 3.2rem;
+  line-height: 3.2rem;
+  color: #3d8168;
+  padding-top: 6rem;
+}
+.product__old__price {
+  width: 4.8rem;
+  height: 2.3rem;
+  font-size: 1.3rem;
+  line-height: 2.3rem;
+  color: #6c7289;
+  padding-top: 2.8rem;
+  padding-top: 6.5rem;
+}
+.main__btn {
+  margin-top: 8rem;
+}
+a {
+  text-decoration: none;
+}
+.site__btn {
+  width: 23.6rem;
+  height: 4.8rem;
+  border-radius: 12px;
+  font-size: 1.4rem;
+  border-color: #3d8168;
+  background-color: #3d8168;
+  color: #ffffff;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: #1a4032;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .site__img {
+    width: 34.3rem;
+    height: 24rem;
+  }
+  .main__img {
+    margin-top: 2.8rem;
+    margin-right: 2rem;
+  }
+  .site__data {
+    margin-top: 31.19rem;
+    margin-left: -36rem;
+  }
+  .product__name {
+    width: 29.5rem;
+    height: 6.4rem;
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+  }
+  .product__description {
+    width: 29.5rem;
+    height: 9.2rem;
+    font-size: 1.4rem;
+    line-height: 2.3rem;
+  }
+  .site__btn {
+    width: 29.5rem;
+    height: 4.8rem;
+  }
+  .main__btn {
+    margin-left: -2.3rem;
+  }
+}
