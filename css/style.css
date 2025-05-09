@@ -100,6 +100,14 @@ a {
 }
 
 @media screen and (max-width: 400px) {
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
   .site__img {
     width: 34.3rem;
     height: 24rem;
